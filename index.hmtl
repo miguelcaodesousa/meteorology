@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>PDF Viewer</title>
-  <style>html,body,iframe{margin:0;padding:0;height:100%;width:100%;}</style>
-</head>
-<body>
-  <iframe src="./file.pdf" width="100%" height="100%"></iframe>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>ATPL Meteorology PDF</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="https://github.com/miguelcaodesousa/meteorology/raw/main/CAE-Oxford-Aviation-Academy-050-Meteorology-compressed.pdf"></iframe>
+  </body>
 </html>
